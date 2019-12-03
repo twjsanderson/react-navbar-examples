@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar, Jumbotron, Button} from 'react-bootstrap';
 
 
-// TODO: add responsiveness
+// TODO: NOT DONE YET
 const Nav6 = () => {
     return (
         <>

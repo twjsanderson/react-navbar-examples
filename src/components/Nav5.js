@@ -1,18 +1,21 @@
 import React from 'react';
 import { Nav, Navbar, Jumbotron, Button} from 'react-bootstrap';
 
-
-// TODO: add responsiveness
 const Nav5 = () => {
     return (
         <>
             <Navbar expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand className="" href="#home">Home</Navbar.Brand>
-                <Nav className="ml-auto">
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#features">Pricing</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
-                    <Nav.Link href="#features">Contact</Nav.Link>
+                <Nav className="m-auto">
+                    <Nav.Link className="px-4" href="#features">Features</Nav.Link>
+                    <Nav.Link className="px-4" href="#features">Pricing</Nav.Link>
+                    <Nav.Link className="px-4" href="#features">Blog</Nav.Link>
+                    <Nav.Link className="px-4" href="#pricing">About</Nav.Link>
+                    <Nav.Link className="px-4" href="#features">Contact</Nav.Link>
+                </Nav>
+            </Navbar>
+            <Navbar bg="dark" variant="dark">
+                <Nav className="m-auto">
+                    <Navbar.Brand className="d-none d-lg-block" href="#home">Home</Navbar.Brand>
                 </Nav>
             </Navbar>
             <Jumbotron>
