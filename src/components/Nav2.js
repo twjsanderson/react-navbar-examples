@@ -3,10 +3,10 @@ import { Nav, Navbar, Jumbotron, Button} from 'react-bootstrap';
 
 function Nav2() {
   return (
-      //TODO: remove HOME when the screen is reduced to small size
     <>
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expand="sm" bg="dark" variant="dark">
         <Nav className="mx-auto">
+          <Navbar.Brand className="d-block d-sm-none" href="#home">Home</Navbar.Brand>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#features">Pricing</Nav.Link>
           <Navbar.Brand className="centeredBrand d-none d-sm-block" href="#home">Home</Navbar.Brand>

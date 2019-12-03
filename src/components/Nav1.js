@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, NavDropdown, Jumbotron, Button} from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown, Jumbotron, Button } from 'react-bootstrap';
 
 function Nav1() {
   return (
@@ -11,7 +11,7 @@ function Nav1() {
         <Nav className="mr-auto">
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+          <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Actions</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
