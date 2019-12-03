@@ -1,6 +1,8 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown, Jumbotron, Button } from 'react-bootstrap';
 
+// Toggle always showing becasue Navbar expand default is xxl
+
 function Nav3() {
   return (
     <>

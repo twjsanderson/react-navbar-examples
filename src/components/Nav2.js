@@ -1,6 +1,9 @@
 import React from 'react';
 import { Nav, Navbar, Jumbotron, Button} from 'react-bootstrap';
 
+// Nav className controls alignment of links
+// Navbar.Brand className controls when that element disappears and reappears with d-block and d-none (choose a size: sm, lg, etc)
+
 function Nav2() {
   return (
     <>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Jumbotron, Button} from 'react-bootstrap';
 
+// adjust link alignment with m-auto/mr-auto/ml-auto this puts logo on top of navbar
 
 const Nav4 = () => {
     return (

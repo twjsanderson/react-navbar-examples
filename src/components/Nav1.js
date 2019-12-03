@@ -1,6 +1,8 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown, Jumbotron, Button } from 'react-bootstrap';
 
+// Change Nav className to "mr-auto" or "m-auto"  to change links alignment
+
 function Nav1() {
   return (
     <>
